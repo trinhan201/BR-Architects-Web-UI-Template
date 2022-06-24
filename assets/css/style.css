@@ -1,0 +1,258 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common css*/
+html {
+    font-family: Verdana,sans-serif;
+}
+.clear {
+    clear: both;
+}
+
+/* Main css */
+#main {
+
+}
+
+#header {
+    height: 54.5px;
+    box-shadow: 0 0 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#header .nav {
+    height: 54.5px;
+    padding: 8px 16px;
+    overflow: hidden;
+}
+
+#header .nav .nav-home {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 4px;
+    display: block;
+    float: left;
+    padding: 10px 16px;
+}
+
+#nav-list {
+    list-style-type: none;
+    float: right;
+}
+
+#nav-list li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+#nav-list li a {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+#nav-list li:hover, 
+#header .nav a:hover {
+    background-color: #ccc;
+}
+
+
+#slider {
+    position: relative;
+    padding-top: 50%;
+    margin-top: 54.5px;
+    background: url("../img/slider/slider.jpg") top center / cover no-repeat;
+}
+
+#slider .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider .slider-text .logo-text {
+    background-color: #000;
+    padding: 12px 16px;
+    font-weight: bolder;
+    color: #fff;
+    opacity: 0.7;
+    letter-spacing: 4px;
+}
+
+#slider .slider-text .name-text {
+    color: #f1f1f1;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+#content {
+
+}
+
+#content .content-heading {
+    padding: 32px;
+}
+
+#content .content-heading .content-heading-text {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#content .project-wrapper {
+    margin-top: 42px;
+}
+
+#content .project-list {
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 16px;
+}
+
+#content .project-list .project-list-item {
+    float: right;
+    width: calc(100%/4);
+    position: relative;
+}
+
+#content .project-list .project-list-item img {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#content .project-list .project-list-item .project-name {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#content .about-text {
+    font-size: 15px;
+    text-align: justify;
+}
+
+#content .about-list {
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 32px;
+}
+
+#content .about-list .about-list-item {
+    float: right;
+    width: calc(100%/4);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#content .about-list .about-list-item img {
+    width: 100%;
+    filter: grayscale(100%)
+}
+
+#content .about-list .about-list-item .about-name {
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+#content .about-list .about-list-item .about-pos {
+    margin-top: 16px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#content .about-list .about-list-item .about-desc {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#content .about-list .about-list-item .btn-about {
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+#content .about-list .about-list-item .btn-about:hover {
+    background-color: #ccc;
+}
+
+#content .contact-text {
+    font-size: 15px;
+    margin: 12px 0;
+}
+
+#content .contact-form {
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+#content .contact-form .form-control {
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+#content .contact-form .btn-contact {
+    background-color: #000;
+    color: #fff;
+    margin-top: 24px;
+    margin-left: 8px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 0;
+}
+
+#content .contact-form .btn-contact:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#content .map img{
+    padding: 16px 32px 8px;
+    width: 100%;
+}
+
+#footer {
+    background-color: #000;
+    height: 84.5px;
+}
+
+#footer .footer-text, 
+#footer .footer-text a {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 32px;
+}
+
+#footer .footer-text a:hover {
+    color: #4CAF50;
+}
